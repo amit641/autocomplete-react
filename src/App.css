@@ -18,12 +18,12 @@ label {
   margin-bottom: 15px;
 }
 
-.no-autocomplete {
+.no-autocomplete-list {
   color: #999;
   padding: 8px;
 }
 
-.autocomplete {
+.autocomplete-list {
   border: 1px solid #999;
   border-top-width: 0;
   list-style: none;
@@ -35,16 +35,16 @@ label {
   margin: auto;
 }
 
-.autocomplete li {
+.autocomplete-list li {
   padding: 8px;
 }
 
-.autocomplete > .active,
-.autocomplete li:hover {
+.autocomplete-list > .active,
+.autocomplete-list li:hover {
   background-color: darkgray;
   cursor: pointer;
   font-weight: 700;
 }
-.autocomplete li:not(:last-of-type) {
+.autocomplete-list li:not(:last-of-type) {
   border-bottom: 1px solid #999;
 }
